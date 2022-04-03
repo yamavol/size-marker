@@ -22,7 +22,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  * 
- * @version 0.1.0
+ * @version 0.1.1
  */
 class SizeMarker {
   
@@ -528,8 +528,8 @@ class SizeMarker {
    * @param {HTMLElement} elem 
    * @param {Option} option
    */
-  static addVerticalMarker(elem, option) {
-    SizeMarker.addMarker(elem, option = {}, {
+  static addVerticalMarker(elem, option = {}) {
+    SizeMarker.addMarker(elem, {
       ...option,
       orientation: SizeMarker.Orientation.Vertical,
     });
