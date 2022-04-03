@@ -1,0 +1,29 @@
+{
+  "name": "size-marker",
+  "version": "0.1.0",
+  "description": "add a bar-marker to visualize the size of HTML element",
+  "main": "size-marker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yamavol/size-marker.git"
+  },
+  "keywords": [
+    "html",
+    "dom",
+    "element",
+    "size",
+    "width",
+    "height",
+    "marker",
+    "visualize"
+  ],
+  "author": "yamavol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamavol/size-marker/issues"
+  },
+  "homepage": "https://github.com/yamavol/size-marker#readme"
+}
